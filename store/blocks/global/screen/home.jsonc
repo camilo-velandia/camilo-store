@@ -1,7 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "whatsapp-btn"
     ]
   },
   "rich-text": {
@@ -10,6 +11,13 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2"
+    }
+  },
+  "whatsapp-btn": {
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "123",
+      "message": "hola, en que te podemos ayudar"
     }
   }
 }
