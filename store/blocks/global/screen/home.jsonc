@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "whatsapp-btn"
+      "whatsapp-btn",
+      "flex-layout.row#bullets"
     ]
   },
   "rich-text": {
@@ -18,6 +19,83 @@
       "logo": "assets/img/whatsapp.png",
       "phone": "123",
       "message": "hola, en que te podemos ayudar"
+    }
+  },
+  "flex-layout.row#bullets":{
+    "children":["list-context.bullets-group"]
+  },
+  "list-context.bullets-group":{
+    "title":"mi contexto de lista de bullets",
+    "children":["slider-layout#bullet-group"],
+    "props":{
+      "bullets":[
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet":"computadores",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet":"computadores",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet":"computadores",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet":"computadores",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet":"computadores",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/fashion.png",
+          "titleBullet":"ropa",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/fashion.png",
+          "titleBullet":"ropa",
+          "Link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/fashion.png",
+          "titleBullet":"ropa",
+          "Link":{
+            "url":"/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props":{
+      "itemsPerPage":{
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
     }
   }
 }
