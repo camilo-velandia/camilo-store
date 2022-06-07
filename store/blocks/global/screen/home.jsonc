@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text",
       "whatsapp-btn",
-      "flex-layout.row#bullets"
+      "flex-layout.row#bullets",
+      "pdf-reader"
     ]
   },
   "rich-text": {
@@ -96,6 +97,13 @@
         "mobile": 5
       },
       "infinite": true
+    }
+  },
+  "pdf-reader":{
+    "props":{
+      "pdfUrl":"assets/documents/sample.pdf",
+      "width":500,
+      "height":800
     }
   }
 }
