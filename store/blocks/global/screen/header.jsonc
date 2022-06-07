@@ -27,7 +27,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
+      // "search-bar",
+      "department-search",
       "login",
       "minicart.v2"
     ]
