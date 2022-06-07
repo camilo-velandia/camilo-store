@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "rich-text",
+      "quick-order",
       "whatsapp-btn",
       "flex-layout.row#bullets",
       "pdf-reader"
